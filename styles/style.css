@@ -1,0 +1,108 @@
+body {
+    font-family: serif;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    margin: auto;
+    margin-top: 40px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.header .txt h2 {
+    border-bottom: 2px solid #000;
+    /* width: 50%; */
+    /* margin-left: 50px; */
+    /* height: 5px; */
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    padding: relative;
+    width: 30%;
+    line-height: 2rem;
+}
+
+.pic {
+    position: absolute;
+    top: 70px;
+    right: 350px;
+    border: 1px solid #000;
+    width: 150px;
+    height: 125px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-left: 50px;
+}
+
+.container .rem {
+    border: none;
+}
+
+.container .rem input {
+    border: none;
+    border-bottom: 1px dashed #000;
+}
+
+.container .rem input:focus {
+    outline: none;
+}
+
+.container .check {
+    word-spacing: 20px;
+}
+
+.register {
+    margin: auto;
+    display: flex;
+    padding: relative;
+    width: 30%;
+    line-height: 2rem;
+}
+
+.register .child1 {
+    position: absolute;
+    display: flex;
+    border: none;
+    gap: 5px;
+}
+
+.register .child1 input {
+    border: none;
+    border-bottom: 1px dashed #000;
+}
+
+.register .child1 input:focus {
+    outline: none;
+}
+
+.register .child2 input {
+    border: none;
+    border-bottom: 1px dashed #000;
+}
+
+.register .child2 input:focus {
+    outline: none;
+}
+
+.bottom {
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    display: flex;
+}
+
+.bottom input {
+    border: none;
+    border-bottom: 1px dashed #000;
+}
+
+.bottom input:focus {
+    outline: none;
+}
